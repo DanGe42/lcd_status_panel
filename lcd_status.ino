@@ -73,7 +73,7 @@ void loop() {
 String formatDateTime(DateTime dt) {
   String dtString = formatInt(dt.month());
   dtString += '/';
-  dtString += formatInt(dt.month());
+  dtString += formatInt(dt.day());
   dtString += ' ';
   dtString += formatInt(dt.hour());
   dtString += ':';
